@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block header %}
+        <li><a class="nav-link" href="{{ url_for('signup') }}">Sign Up</a></li>
+        <li><a class="nav-link" href="{{ url_for('signin') }}">Sign In</a></li> 
+{% endblock %}
+
+{% block content %}
+<img src="{{ url_for('static', filename='home_1.jpg') }}" alt="" />
+<br><br>
+<img src="{{ url_for('static', filename='home_2.jpg') }}" alt="" />
+<br><br>
+<img src="{{ url_for('static', filename='home_3.jpg') }}" alt="" />
+<br><br>
+
+<h1>Online Recruitment Fraud</h1>
+
+        <p>In today’s digital age, job seekers often find opportunities online. However, this convenience comes with risks, as online recruitment fraud is on the rise. Scammers exploit vulnerable individuals looking for work, leading to financial loss and emotional distress.</p>
+        <br>
+        <p>Understanding the nature of online recruitment fraud is crucial for anyone searching for jobs online. Fraudsters often create fake job postings, solicit personal information, and even require upfront payments for supposed job-related costs.</p>
+        <br>
+
+        <h2>Types of Online Recruitment Fraud</h2>
+        <p>Online recruitment fraud can take various forms, each designed to deceive job seekers:</p>
+        <ul>
+            <li><b>Fake Job Postings:</b> Scammers post jobs that don’t exist, luring applicants with attractive salaries and perks.</li>
+            <li><b>Phishing Scams:</b> Fraudulent emails may appear legitimate, tricking job seekers into providing personal information or clicking on harmful links.</li>
+            <li><b>Advance Fee Scams:</b> Victims are asked to pay fees for training, background checks, or other supposed necessities before being hired.</li>
+        </ul>
+        <br>
+
+        <h2>Recognizing Red Flags</h2>
+        <p>Being aware of the signs of recruitment fraud can help job seekers avoid falling victim:</p>
+        <ul>
+            <li>Unsolicited job offers or emails from unknown senders.</li>
+            <li>Requests for personal or financial information upfront.</li>
+            <li>Vague job descriptions that lack details about the company.</li>
+            <li>Pressure to act quickly or make decisions without proper research.</li>
+        </ul>
+        <br>
+
+        <h2>Protecting Yourself</h2>
+        <p>To safeguard against online recruitment fraud, consider these proactive measures:</p>
+        <ul>
+            <li><b>Research:</b> Investigate the company and verify job postings through official channels.</li>
+            <li><b>Trust Your Instincts:</b> If an offer seems too good to be true, it likely is.</li>
+            <li><b>Use Secure Methods:</b> Communicate through official email accounts and avoid sharing sensitive information.</li>
+            <li><b>Report Suspicious Activity:</b> Notify job boards or relevant authorities about fraudulent postings.</li>
+        </ul>
+        <br>
+
+        <h2>Conclusion</h2>
+        <p>Online recruitment fraud poses a significant threat to job seekers. By understanding the types of scams and recognizing red flags, individuals can protect themselves from falling victim. Always stay vigilant and conduct thorough research when navigating the job market online.</p>
+        
+{% endblock %}
