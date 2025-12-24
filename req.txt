@@ -1,0 +1,3 @@
+install anaconda 2021 or 24
+
+pip install flask_wtf email_validator transformers torch
